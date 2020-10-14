@@ -52,3 +52,6 @@ footer{
     flex-shrink: 0;
 }
 
+.row_style{
+    padding-top: 60px;
+}
