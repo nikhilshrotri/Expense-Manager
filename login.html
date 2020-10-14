@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="style_index.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            hr{
+                height: 1px;
+                border: none;
+                background-color: #cccccc;
+            }
+            #form_style{
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">Ct<i class="fa fa-inr"></i>l Budget</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="about_us.html"><span class="glyphicon glyphicon-info-sign"></span> About Us</a></li>
+                    <li><a href="sign_up.html"><span class="glyphicon glyphicon-user"></span> Sign up</a></li>
+                    <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <div class="container wrapper">
+            <div class="row row_style">
+                <div class="col-xs-4 col-xs-offset-4">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h3 align="center">LOGIN</h3>
+                            <hr>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div>
+                                    <form id="form_style">
+                                        <div class="form-group">
+                                            <label for="email">Email:</label>
+                                            <input type="text" class="form-control" name="email" placeholder="Email" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="password">Password:</label>
+                                            <input type="password" class="form-control" name="password" placeholder="Password" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="submit" style="background-color: rgb(73, 139, 120);" class="btn btn-success btn-block" data-dismiss="modal">Login</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="panel-footer">
+                                Don't have an account? <a href="sign_up.html">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <center>
+                <div class="container">
+                    <p>Copyright © Control Budget. All Rights Reserved|Contact Us: +911234567.</p>
+                </div>
+            </center>
+        </footer>
+    </body>
+</html>
